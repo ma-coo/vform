@@ -1,0 +1,20 @@
+{
+    "name": "ma-coo/vform",
+    "description": "the simple form of confirmation",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "t.oda",
+            "email": "takahiro.tech.oda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "prs-4": {
+            "DoubleO\\": "src/"
+        }
+    }
+}
