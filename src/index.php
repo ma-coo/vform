@@ -1,13 +1,18 @@
 <?php
 
-namespace DoubleO;
+namespace Double;
 
 class Index
 {
-    private $name;
+    public $name;
 
     public function __construct()
     {
         $this->name = "oda";
+    }
+
+    public function getName()
+    {
+        return $this->name;
     }
 }
